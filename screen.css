@@ -3,12 +3,27 @@ a.active {
     font-weight: bold;
 }
 
-body{
+html{
     color: aliceblue;
+}
+
+body{
     background-color: rgb(8, 8, 17);
     width: 50%;
     justify-self: center;
     margin-top: 100px;
+    background-image: url(images/Space.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+h1{
+    font-size: 3em;
+}
+
+p{
+    font-size: 1em;
 }
 
 nav{
