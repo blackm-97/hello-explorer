@@ -4,5 +4,13 @@ a.active {
 }
 
 body{
-    text-align: center;
+    color: aliceblue;
+    background-color: rgb(8, 8, 17);
+    width: 50%;
+    justify-self: center;
+    margin-top: 100px;
+}
+
+nav{
+    justify-self: center;
 }
