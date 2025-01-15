@@ -46,3 +46,19 @@ nav{
     height: 300px;
     width: 300px;
  }
+
+ @media screen and (max-width: 600px) {
+    .earth{
+        height: 150px;
+        width: 150px;
+    }
+
+    .moon{
+        height: 75px;
+        width: 75px;
+    }
+
+    p{
+        font-size: 1em;
+    }
+  }
