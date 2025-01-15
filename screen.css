@@ -12,7 +12,7 @@ body{
     width: 50%;
     justify-self: center;
     margin-top: 100px;
-    background-image: url(images/Space.jpg);
+    background-image: url(images/SpaceCartoon.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -23,9 +23,26 @@ h1{
 }
 
 p{
-    font-size: 1em;
+    font-size: 1.5em;
 }
 
 nav{
     justify-self: center;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
 }
+ .moon{
+    height: 150px;
+    width: 150px;
+    align-self: center;
+ }
+
+ a{
+    align-self: center;
+ }
+
+ .earth{
+    height: 300px;
+    width: 300px;
+ }
